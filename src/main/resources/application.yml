@@ -1,0 +1,12 @@
+core:
+  cluster:
+    api-url-prefix: http://localhost:8080/
+    img-url-prefix: http://localhost:8080/
+    front-url-prefix: http://localhost:8000/
+    # awsS3-url-prefix: http://localhost:8080/
+    awsS3-url-prefix: http://s3.ap-northeast-2.amazonaws.com/dev-atomy-files/
+    default-url-prefix: http://localhost:8080/
+    mode: all
+    default-service-group: all
+    members: 127.0.0.1
+    id-prefix: X
