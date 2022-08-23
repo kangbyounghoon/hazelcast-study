@@ -1,4 +1,6 @@
 core:
+  project: atomy
+  internal-port: 8080
   cluster:
     api-url-prefix: http://localhost:8080/
     img-url-prefix: http://localhost:8080/
